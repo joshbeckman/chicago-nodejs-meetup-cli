@@ -1,0 +1,27 @@
+{
+  "name": "chicago-nodejs-meetup-cli",
+  "version": "1.0.0",
+  "description": "An example CLI to find out the next Chicago Node.js Meetup",
+  "main": "index.js",
+  "bin": {
+    "chicago-nodejs-meetup": "./src/bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andjosh/chicago-nodejs-meetup-cli.git"
+  },
+  "author": "andjosh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andjosh/chicago-nodejs-meetup-cli/issues"
+  },
+  "homepage": "https://github.com/andjosh/chicago-nodejs-meetup-cli#readme",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "debug": "^3.1.0",
+    "request": "^2.85.0"
+  }
+}

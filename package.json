@@ -1,6 +1,6 @@
 {
   "name": "chicago-nodejs-meetup-cli",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An example CLI to find out the next Chicago Node.js Meetup",
   "main": "index.js",
   "bin": {
